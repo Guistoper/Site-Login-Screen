@@ -1,0 +1,75 @@
+body {
+    background-color:#1e1f20;
+}
+.sign {
+    margin: 0 auto;
+    padding: 75px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: #0e0e0e;
+    border-radius: 25px
+}
+.sign .lsign {
+    margin-right: 150px;
+}
+.sign .lsign .hlsign {
+    color: white;
+    font-family: Arial;
+}
+.sign .lsign .plsign {
+    color: white;
+    font-family: Arial;
+}
+.sign .rsign {
+    margin: auto 0;
+}
+.sign .rsign .irsign {
+    margin-top: 23px;
+    background-color: transparent;
+    font-family: Arial;
+    color: white;
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.foot {
+    display: flex;
+    margin: 0 auto;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px;
+}
+.foot .hfoot {
+    margin-right: 5px;
+    font-family: Arial;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.foot .pfoot {
+    margin-right: 5px;
+    font-family: Arial;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.foot .tfoot {
+    font-family: Arial;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.foot .hfoot:hover {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+.foot .pfoot:hover {
+    background-color: rgba(50, 50, 50, 0.5);;
+}
+.foot .tfoot:hover {
+    background-color: rgba(50, 50, 50, 0.5);;
+}
