@@ -1,75 +1,54 @@
 body {
     background-color:#1e1f20;
 }
-.sign {
-    margin: 0 auto;
-    padding: 75px;
+.box {
     display: flex;
-    justify-self: center;
+    flex-direction: column;
     justify-content: center;
+    justify-self: center;
+    min-height: 95vh;
+}
+.box .inbox {
+    display: flex;
     background-color: #0e0e0e;
-    border-radius: 25px
+    padding: 80 40 80 40;
+    border-radius: 25px;
 }
-.sign .lsign {
-    margin-right: 150px;
+.box .inbox .leftbox {
+    margin: 0 260 100 0;
 }
-.sign .lsign .hlsign {
+.box .inbox .rightbox {
+    margin: 18 0 0 0;
+}
+.box .inbox .leftbox .headbox {
     color: white;
     font-family: Arial;
 }
-.sign .lsign .plsign {
+.box .inbox .leftbox .parabox {
     color: white;
     font-family: Arial;
 }
-.sign .rsign {
-    margin: auto 0;
-}
-.sign .rsign .irsign {
-    margin-top: 23px;
-    background-color: transparent;
-    font-family: Arial;
+.box .inbox .rightbox .email {
+    min-width: 450px;
     color: white;
-    padding: 10px;
-    width: 500px;
+    padding: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: transparent;
 }
-.foot {
-    display: flex;
-    margin: 0 auto;
-    justify-self: center;
-    justify-content: center;
-    padding: 10px;
+.box .inbox .rightbox .forgot {
+    margin: 10 0 0 0;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #a8c7fa;
+    border: 0;
+    padding: 0
 }
-.foot .hfoot {
-    margin-right: 5px;
+.box .inbox .rightbox .forgot:hover {
+    background-color: #1f1f1f;
+    cursor: pointer
+}
+.box .inbox .rightbox .parabox {
+    color: white;
     font-family: Arial;
-    color: #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.foot .pfoot {
-    margin-right: 5px;
-    font-family: Arial;
-    color: #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.foot .tfoot {
-    font-family: Arial;
-    color: #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.foot .hfoot:hover {
-    background-color: rgba(50, 50, 50, 0.5);
-}
-.foot .pfoot:hover {
-    background-color: rgba(50, 50, 50, 0.5);;
-}
-.foot .tfoot:hover {
-    background-color: rgba(50, 50, 50, 0.5);;
 }
