@@ -1,54 +1,136 @@
 body {
     background-color:#1e1f20;
 }
-.box {
+.page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-self: center;
     min-height: 95vh;
+    font-family: Arial
 }
-.box .inbox {
+.page .box {
     display: flex;
     background-color: #0e0e0e;
-    padding: 80 40 80 40;
+    padding: 80 30 10 30;
     border-radius: 25px;
 }
-.box .inbox .leftbox {
-    margin: 0 260 100 0;
+.page .box .left {
+    margin: 0 320 100 0;
 }
-.box .inbox .rightbox {
+.page .box .right {
     margin: 18 0 0 0;
 }
-.box .inbox .leftbox .headbox {
-    color: white;
-    font-family: Arial;
+.page .box .left .h1 {
+    color: #ccc;
 }
-.box .inbox .leftbox .parabox {
-    color: white;
-    font-family: Arial;
+.page .box .left .p1 {
+    color: #ccc;
+    margin-top: -5
 }
-.box .inbox .rightbox .email {
-    min-width: 450px;
-    color: white;
+.page .box .right .email {
+    min-width: 385px;
+    color: #ccc;
     padding: 15px;
+    margin-left: 4px;
     border-radius: 5px;
     border: 1px solid #ccc;
     background-color: transparent;
 }
-.box .inbox .rightbox .forgot {
+.page .box .right .forgot {
     margin: 10 0 0 0;
-    border-radius: 4px;
+    border-radius: 8px;
+    font-size: 12;
     background-color: transparent;
     color: #a8c7fa;
+    font-weight: bold;
     border: 0;
-    padding: 0
+    padding: 3;
+    padding-left: 4
 }
-.box .inbox .rightbox .forgot:hover {
+.page .box .right .forgot:hover {
     background-color: #1f1f1f;
     cursor: pointer
 }
-.box .inbox .rightbox .parabox {
-    color: white;
-    font-family: Arial;
+.page .box .right .div {
+    color: #ccc;
+    margin-top: 40px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    max-width: 380px;
+    font-size: 12;
+}
+.page .box .right .a {
+    color: #a8c7fa;
+    text-decoration: none;
+    font-size: 12;
+    margin-left: 4px;
+}
+.page .box .right .a:hover {
+    text-decoration: underline
+}
+.page .box .right .create {
+    color: #a8c7fa;
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 10;
+    border-radius: 25px;
+    background-color: transparent;
+    border: none;
+    font-size: 12;
+}
+.page .box .right .create:hover {
+    background-color: #a8c7fa11;
+    cursor: pointer
+}
+.page .box .right .next {
+    color: #0c3474;
+    background-color: #a8c7fa;
+    border-radius: 25px;
+    border: none;
+    font-size: 12;
+    margin-left: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.page .box .right .next:hover {
+    background-color: #aecbfa;
+    cursor: pointer
+}
+.page .footer {
+    display: flex;
+    justify-content: right;
+    justify-self: right;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.page .footer .help {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 3px;
+    color: #ccc;
+    border-radius: 10px;
+}
+.page .footer .help:hover {
+    background-color: #cccccc09;
+}
+.page .footer .privacy {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 3px;
+    color: #ccc;
+    border-radius: 10px;
+}
+.page .footer .privacy:hover {
+    background-color: #cccccc09;
+}
+.page .footer .terms {
+    text-decoration: none;
+    padding: 10px;
+    color: #ccc;
+    border-radius: 10px;
+}
+.page .footer .terms:hover {
+    background-color: #cccccc09;
 }

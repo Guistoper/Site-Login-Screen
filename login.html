@@ -5,28 +5,30 @@
         <title>Sign in - Appletre</title>
     </head>
     <body>
-        <div class="box">
-            <div class="inbox">
-                <div class="leftbox">
-                    <h1 class="headbox">Sign In</h1>
-                    <p class="parabox">Use your email</p>
+        <div class="page">
+            <div class="box">
+                <div class="left">
+                    <h1 class="h1">Sign In</h1>
+                    <p class="p1">Use your email</p>
                 </div>
-                <div class="rightbox">
-                    <input class="email" type="email" name="email" placeholder="Email">
-                    <div>
+                <div class="right">
+                    <form action="">
+                        <input class="email" id="email" type="email" placeholder="Email" required><br>
                         <button class="forgot" type="button">Forgot email?</button>
-                        <p class="parabox">Not your computer? Use Guest mode to sign in privately. </p>
-                        <input class="createbutton" type="button" name="create" value="Create Account">
-                        <input class="nextbutton" type="button" name="next" value="Next">
-                    </div>
+                        <div class="div">
+                            Not your computer? Use Guest mode to sign in privately.
+                            <a class ="a" href="#forgot">Learn more about using Guest mode</a>
+                        </div>
+                        <input class="create" id="create" type="button" value="Create Account">
+                        <input class="next" id="next" type="button" value="Next">
+                    </form>
                 </div>
             </div>
-            <div class="foot">
+            <div class="footer">
                 <a class="help" href="#help">Help</a>
                 <a class="privacy" href="#privacy">Privacy</a>
                 <a class="terms" href="#terms">Terms</a>
             </div>
         </div>
-        
     </body>
 </html>
