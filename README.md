@@ -2,7 +2,7 @@
 # Tela de Login de Site
 
 ## Descrição
-Projeto feito para criar uma tela de login para um site inventado.
+Projeto feito para criar uma tela de login.
 
 ## Estrutura
 
@@ -19,7 +19,7 @@ Projeto feito para criar uma tela de login para um site inventado.
 # Website Login Page
 
 ## Description
-Project created to design a login screen for a fictional website.
+Project created to design a login screen.
 
 ## Structure
 
