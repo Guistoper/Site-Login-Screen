@@ -5,28 +5,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-self: center;
+    align-items: center;
     min-height: 95vh;
     font-family: Arial
 }
 .page .box {
     display: flex;
     background-color: #0e0e0e;
-    padding: 80 30 10 30;
+    padding: 80px 30px 10px 30px;
+    max-width: fit-content;
     border-radius: 25px;
 }
 .page .box .left {
-    margin: 0 320 100 0;
+    margin: 0px 320px 100px 0px;
 }
 .page .box .right {
-    margin: 18 0 0 0;
+    margin: 18px 0px 0px 0px;
 }
 .page .box .left .h1 {
     color: #ccc;
 }
 .page .box .left .p1 {
     color: #ccc;
-    margin-top: -5
+    margin-top: -5px
 }
 .page .box .right .email {
     min-width: 385px;
@@ -38,18 +39,18 @@ body {
     background-color: transparent;
 }
 .page .box .right .forgot {
-    margin: 10 0 0 0;
+    margin: 10px 0px 0px 0px;
     border-radius: 8px;
-    font-size: 12;
+    font-size: 12px;
     background-color: transparent;
     color: #a8c7fa;
     font-weight: bold;
-    border: 0;
-    padding: 3;
-    padding-left: 4
+    border: 0px;
+    padding: 3px;
+    padding-left: 4px
 }
 .page .box .right .forgot:hover {
-    background-color: #1f1f1f;
+    background-color: #a8c7fa09;
     cursor: pointer
 }
 .page .box .right .div {
@@ -58,13 +59,12 @@ body {
     margin-left: 4px;
     margin-bottom: 2px;
     max-width: 380px;
-    font-size: 12;
+    font-size: 12px;
 }
 .page .box .right .a {
     color: #a8c7fa;
     text-decoration: none;
-    font-size: 12;
-    margin-left: 4px;
+    font-size: 12px;
 }
 .page .box .right .a:hover {
     text-decoration: underline
@@ -73,14 +73,14 @@ body {
     color: #a8c7fa;
     margin-top: 30px;
     margin-left: 200px;
-    padding: 10;
+    padding: 10px;
     border-radius: 25px;
     background-color: transparent;
     border: none;
-    font-size: 12;
+    font-size: 12px;
 }
 .page .box .right .create:hover {
-    background-color: #a8c7fa11;
+    background-color: #a8c7fa09;
     cursor: pointer
 }
 .page .box .right .next {
@@ -88,7 +88,7 @@ body {
     background-color: #a8c7fa;
     border-radius: 25px;
     border: none;
-    font-size: 12;
+    font-size: 12px;
     margin-left: 20px;
     padding: 10px;
     padding-left: 20px;
@@ -100,8 +100,7 @@ body {
 }
 .page .footer {
     display: flex;
-    justify-content: right;
-    justify-self: right;
+    margin-left: 725px;
     margin-top: 5px;
     font-size: 10px;
 }
@@ -113,7 +112,7 @@ body {
     border-radius: 10px;
 }
 .page .footer .help:hover {
-    background-color: #cccccc09;
+    background-color: #cccccc13;
 }
 .page .footer .privacy {
     text-decoration: none;
@@ -123,7 +122,7 @@ body {
     border-radius: 10px;
 }
 .page .footer .privacy:hover {
-    background-color: #cccccc09;
+    background-color: #cccccc13;
 }
 .page .footer .terms {
     text-decoration: none;
@@ -132,5 +131,5 @@ body {
     border-radius: 10px;
 }
 .page .footer .terms:hover {
-    background-color: #cccccc09;
+    background-color: #cccccc13;
 }
